@@ -697,22 +697,6 @@ const App: React.FC = () => {
                   </a>
                 </div>
               </div>
-
-              <div className="glass-card p-1 rounded-3xl overflow-hidden h-96 relative group">
-                {/* Mock Map View */}
-                <div className="absolute inset-0 bg-slate-800 flex items-center justify-center text-slate-500">
-                  <div className="text-center">
-                    <p className="mb-2 italic">Интерактивная карта загружается...</p>
-                    <p className="text-xs uppercase tracking-widest text-emerald-500/50">DOMZZZON Region Map</p>
-                  </div>
-                </div>
-                {/* Placeholder Image for visual impact */}
-                <img 
-                  src="https://picsum.photos/seed/map/800/600" 
-                  alt="Location Map" 
-                  className="w-full h-full object-cover opacity-30 grayscale group-hover:grayscale-0 transition-all duration-700"
-                />
-              </div>
             </div>
           </div>
         </section>
