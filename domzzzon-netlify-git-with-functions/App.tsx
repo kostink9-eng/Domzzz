@@ -161,7 +161,7 @@ const App: React.FC = () => {
               type="button"
               onClick={scrollToTop}
               className="flex items-center gap-3"
-              aria-label="DOMZZZON — на главную"
+              aria-label="ONERA — на главную"
             >
               <img
                 src="/assets/logo_no_bg.png"
@@ -295,7 +295,7 @@ const App: React.FC = () => {
         {/* ADVANTAGES */}
         <section id="advantages" className="py-24 bg-slate-950">
           <div className="container mx-auto px-4">
-            <SectionTitle subtitle="Почему выбирают DOMZZZON для своего Умного Дома">Преимущества</SectionTitle>
+            <SectionTitle subtitle="Почему выбирают ONERA для своего Умного Дома">Преимущества</SectionTitle>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {[
@@ -659,7 +659,7 @@ const App: React.FC = () => {
         {/* CONTACTS */}
         <section id="contacts" className="py-24 bg-slate-950 border-t border-white/5">
           <div className="container mx-auto px-4">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
+           <div className="max-w-4xl mx-auto">
               <div className="space-y-8">
                 <SectionTitle subtitle="Свяжитесь с нами любым удобным способом">Контакты</SectionTitle>
                 
@@ -733,7 +733,7 @@ const App: React.FC = () => {
           </div>
 
           <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] md:text-xs text-slate-600 uppercase tracking-widest">
-            <p>© 2025 DOMZZZON. Все права защищены.</p>
+            <p>© {new Date().getFullYear()} ONERA. Все права защищены.</p>
             <p className="text-center">Оператор: ИП Краснопёрова В.М., ОГРНИП 322237500455750, ИНН 027411817323</p>
           </div>
         </div>
